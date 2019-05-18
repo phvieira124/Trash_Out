@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Outros/inicio do game.unity
+    guid: 8926f16d7b698b94099a8ec35da5c8a0
+  - enabled: 1
+    path: Assets/Scenes/Menus/MenuPrincipal.unity
+    guid: bb727884939bca74c9b2071d883ccc7a
+  - enabled: 1
+    path: Assets/Scenes/Menus/Selecao.unity
+    guid: 3dab82957cf0a184f8a9bc1e493e89fc
+  - enabled: 1
+    path: Assets/Scenes/fases/Salesopolis.unity
+    guid: 9b3217b7396b04746b1b6c0142357b2c
+  - enabled: 1
+    path: Assets/Scenes/fases/Biritiba_Mirim.unity
+    guid: 4a6fd5498ebf7a54793cf0fe16c666ed
+  - enabled: 1
+    path: Assets/Scenes/fases/Morro_Do_Cahimbo.unity
+    guid: e6399be8852c3d74c99c66d5d0cdabfd
+  - enabled: 1
+    path: Assets/Scenes/fases/Guarulhos.unity
+    guid: 7fa2518d5a0319c4b921bb127167f1e5
+  - enabled: 1
+    path: Assets/Scenes/fases/Marginal_Pinheiros.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Outros/Creditos.unity
+    guid: 4f3dea891b1c96d439a5a0fc0d5535d7
+  - enabled: 1
+    path: Assets/Scenes/Outros/Instrucoes.unity
+    guid: 9572107b9f92b9545ad341f5efb1366b
+  - enabled: 1
+    path: Assets/Scenes/Outros/GameOver.unity
+    guid: b794c32d1507c444a9278ee44954f093
+  m_configObjects: {}
