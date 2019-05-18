@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Canvas1
   - Enemy
+  - pause
   layers:
   - Default
   - TransparentFX

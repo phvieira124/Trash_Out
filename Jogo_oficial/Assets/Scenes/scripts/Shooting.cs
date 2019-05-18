@@ -11,15 +11,19 @@ public class Shooting : MonoBehaviour
     public Rigidbody2D Bala;
 
 
+    public void atirar()
+    {
+        Fire();
+    }
 
     // Update is called once per frame
-    void Update()
+   /* void Update()
     {
 
         if (CrossPlatformInputManager.GetButton("Fire1"))
-            Fire();
+          
 
-    }
+    }*/
 
          void Fire()
     {
