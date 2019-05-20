@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class OBJPERDIDOS : MonoBehaviour
+public class ContPerdidos : MonoBehaviour
 {
     public int perdidos;
     public int maxDePerdas;
-    private GameObject gameObject;
+    private new GameObject gameObject;
     // Start is called before the first frame update
     void Start()
     {
-        perdidos = 0;
+        perdidos = -1;
         maxDePerdas = 3;
     }
 

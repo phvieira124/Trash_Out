@@ -1704,10 +1704,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O grupo Trash Team agradece primeiramente a Deus, aos professores da UNIP
-    - Cidade Universit\xE1ria, e aos orientadores da APS do curso de Ci\xEAncia da
-    Computa\xE7\xE3o. Todos do grupo tem uma grande parcela no jogo, que foi feito
-    na Unity usando diversas ferramentas e programas para a realiza\xE7\xE3o do projeto. "
+  m_Text: "O grupo Trash Team agradece aos professores da UNIP do campus Cidade Universit\xE1ria
+    que foram orientadores de APS do curso de Ci\xEAncia da Computa\xE7\xE3o. Todos
+    do grupo tem uma grande participa\xE7\xE3o no jogo, que foi feito pelo motor Unity
+    usando diversas ferramentas e programas para a realiza\xE7\xE3o do projeto."
 --- !u!222 &1751242849
 CanvasRenderer:
   m_ObjectHideFlags: 0
