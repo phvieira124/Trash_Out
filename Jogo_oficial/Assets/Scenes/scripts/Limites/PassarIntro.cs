@@ -4,15 +4,15 @@ using UnityEngine;
 using System.Threading.Tasks;
 using UnityEngine.SceneManagement;
 
-public class PassarFase : MonoBehaviour
+public class PassarIntro : MonoBehaviour
 {
-    float limite = 60;
+    float limite = 5;
     // Update is called once per frame
     void Update()
     {
         if (Time.time >= limite)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
         }
     }
 }
