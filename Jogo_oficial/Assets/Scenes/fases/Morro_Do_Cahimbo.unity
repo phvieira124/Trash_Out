@@ -659,6 +659,49 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -11.6}
   m_SizeDelta: {x: -118.5, y: -95.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &436711603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436711605}
+  - component: {fileID: 436711604}
+  m_Layer: 0
+  m_Name: passadorFase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &436711604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436711603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52694544e0ac4204fb6a3e0bc23c732f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &436711605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436711603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.119999886, y: 0.24000001, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453436206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577771543}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.8, y: -1.92, z: -9}
+  m_LocalPosition: {x: 9.17, y: -3.03, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1362096643}
@@ -1271,7 +1314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrairaPreFab: {fileID: 5553496908982019257, guid: 3dd68a52b2156f04e9852d7f7f35c297,
     type: 3}
-  rateSpawn: 11
+  rateSpawn: 1
   correntTime: 2
   posicao: 0
   y: 0
@@ -1329,7 +1372,7 @@ GameObject:
   - component: {fileID: 694206805}
   - component: {fileID: 694206804}
   m_Layer: 0
-  m_Name: quadrado
+  m_Name: margem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2109,7 +2152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302740285}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: -1.9, z: -18}
+  m_LocalPosition: {x: 9.09, y: -3.01, z: -18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1362096643}
@@ -2129,7 +2172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrairaPreFab: {fileID: 5145892747506036076, guid: 91a47d76c4d3a7c4989be1c93bf44fd3,
     type: 3}
-  rateSpawn: 15
+  rateSpawn: 2
   correntTime: 0
   posicao: 0
   y: 0
@@ -2264,6 +2307,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304505135}
   m_CullTransparentMesh: 0
+--- !u!1 &1317512100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317512101}
+  - component: {fileID: 1317512102}
+  m_Layer: 0
+  m_Name: Spawn_garrafa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317512101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317512100}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.05, y: -2.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1362096643}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1317512102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317512100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7d344d725118544b6e86a49f61c69d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrairaPreFab: {fileID: 4114760234944321982, guid: 741a8d8e300adaa4aaf1e4e2e81bb7f6,
+    type: 3}
+  rateSpawn: 3
+  correntTime: 0
+  posicao: 0
+  y: 0
 --- !u!1 &1362096640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2440,7 @@ Transform:
   - {fileID: 1302740286}
   - {fileID: 577771544}
   - {fileID: 1411849606}
+  - {fileID: 1317512101}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2472,7 +2565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411849605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.14, y: -2.483584, z: -7}
+  m_LocalPosition: {x: 9.2, y: -3.04, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1362096643}
@@ -2492,7 +2585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrairaPreFab: {fileID: 885501646769476979, guid: 175c11db027b3474e92592c64be7223c,
     type: 3}
-  rateSpawn: 6
+  rateSpawn: 2
   correntTime: 0
   posicao: 0
   y: 0

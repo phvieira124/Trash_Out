@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BIRITIBA MIRIM
+  m_Text: 2. BIRITIBA MIRIM
 --- !u!222 &104234064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -269,7 +269,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MORRO DO CACHIMB\xD3"
+  m_Text: "3. MORRO DO CACHIMB\xD3"
 --- !u!222 &117294665
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SALES\xD3POLIS"
+  m_Text: "1. SALES\xD3POLIS"
 --- !u!222 &287905003
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ RectTransform:
   m_GameObject: {fileID: 545432102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.54151, y: 0.54151, z: 0.54151}
   m_Children:
   - {fileID: 1447409725}
   - {fileID: 1090299961}
@@ -862,7 +862,7 @@ GameObject:
   - component: {fileID: 1140671707}
   - component: {fileID: 1140671706}
   m_Layer: 5
-  m_Name: Voltar
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -970,7 +970,7 @@ RectTransform:
   m_GameObject: {fileID: 1140671705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.86838, y: 0.86838, z: 0.86838}
   m_Children:
   - {fileID: 1870811506}
   m_Father: {fileID: 316016585}
@@ -978,7 +978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -225}
+  m_AnchoredPosition: {x: 1, y: -168}
   m_SizeDelta: {x: 198.2, y: 73.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1324020956
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'GUARULHOS
+  m_Text: '4. GUARULHOS
 
 '
 --- !u!222 &1324020959
@@ -1230,7 +1230,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.015686275, g: 0.10588236, b: 0.34901962, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1677,7 +1677,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'MARGINAL PINHEIROS
+  m_Text: '5. MARGINAL PINHEIROS
 
 '
 --- !u!222 &1840887680
@@ -1745,7 +1745,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: VOLTAR
+  m_text: MENU
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1814,7 +1814,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1870811507}
-    characterCount: 6
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
     wordCount: 1

@@ -171,5 +171,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28828cd9683389c44ab3b62182eedd84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  ScoreValue: 20
+  health: 1
+  ScoreValue: 5
