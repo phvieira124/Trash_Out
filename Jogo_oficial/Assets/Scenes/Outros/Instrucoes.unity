@@ -333,10 +333,10 @@ RectTransform:
   m_Father: {fileID: 45677675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149.9, y: 143.29999}
-  m_SizeDelta: {x: 109.2, y: 40.4}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 75, y: 224}
+  m_SizeDelta: {x: 109.20001, y: 40.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613818311
 MonoBehaviour:
@@ -698,7 +698,7 @@ RectTransform:
   m_GameObject: {fileID: 1023473050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2602, y: 1.2602, z: 1.2602}
   m_Children:
   - {fileID: 291858674}
   - {fileID: 1744854168}
@@ -1023,8 +1023,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -58.3}
-  m_SizeDelta: {x: 409, y: 186.9}
+  m_AnchoredPosition: {x: -17, y: -78.8}
+  m_SizeDelta: {x: 505.7, y: 227.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744854169
 MonoBehaviour:
@@ -1059,9 +1059,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Bem Vindo ao \"trash Out\". \nSeu objetivo neste jogo \xE9 \natirar nos
-    lixos que \naparecer\xE3o. tente n\xE3o \ndeixar nenhum lixo \npassar. a fase
-    acaba quando voc\xEA \nderrota o Boss da fase. \n    Boa sorte e bom divertimento...."
+  m_Text: "Obrigado por baixar \"Trash Out\". \nSeu objetivo neste jogo \xE9 atirar
+    nos lixos que \naparecer\xE3o. tente n\xE3o deixar nenhum lixo passar. \n\nA fase
+    acaba quando voc\xEA atinge a pontua\xE7\xE3o necess\xE1ria. \n\n    Divirta-se
+    e boa sorte!"
 --- !u!222 &1744854170
 CanvasRenderer:
   m_ObjectHideFlags: 0

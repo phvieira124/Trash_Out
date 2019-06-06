@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class SelecaoFases : MonoBehaviour
 {
     public Button fase1, fase2, fase3, fase4, fase5, Voltar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class SelecaoFases : MonoBehaviour
     {
         SceneManager.LoadScene(3);
         Time.timeScale = 1f;
+
     }
 
     public void entrar2()

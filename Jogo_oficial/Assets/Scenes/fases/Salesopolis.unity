@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 499964803}
   - component: {fileID: 499964802}
   m_Layer: 0
-  m_Name: rio 2 teste
+  m_Name: rio 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

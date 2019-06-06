@@ -449,6 +449,8 @@ RectTransform:
   m_Children:
   - {fileID: 545432103}
   - {fileID: 1140671709}
+  - {fileID: 721123612}
+  - {fileID: 1671207109}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -578,12 +580,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721123610}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 200.00157, y: 143.03174, z: -66.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8888.958, y: 6356.966, z: -6955.556}
+  m_LocalScale: {x: 44.444447, y: 44.444447, z: 44.444447}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 316016585}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898222256
 GameObject:
@@ -598,7 +600,7 @@ GameObject:
   - component: {fileID: 898222258}
   - component: {fileID: 898222260}
   m_Layer: 5
-  m_Name: fase3
+  m_Name: btFase3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -730,7 +732,7 @@ GameObject:
   - component: {fileID: 1090299962}
   - component: {fileID: 1090299964}
   m_Layer: 5
-  m_Name: fase2
+  m_Name: btFase2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -862,7 +864,7 @@ GameObject:
   - component: {fileID: 1140671707}
   - component: {fileID: 1140671706}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: btMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1075,7 +1077,7 @@ GameObject:
   - component: {fileID: 1447409726}
   - component: {fileID: 1447409728}
   m_Layer: 5
-  m_Name: fase1
+  m_Name: btFase1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1290,7 +1292,7 @@ GameObject:
   - component: {fileID: 1664142400}
   - component: {fileID: 1664142402}
   m_Layer: 5
-  m_Name: fase4
+  m_Name: btFase4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1422,7 +1424,7 @@ GameObject:
   - component: {fileID: 1670561681}
   - component: {fileID: 1670561680}
   m_Layer: 5
-  m_Name: fase5
+  m_Name: btFase5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1600,12 +1602,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671207106}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3999.9998}
+  m_LocalScale: {x: 44.444443, y: 44.444443, z: 44.444443}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 316016585}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1840887677
 GameObject:

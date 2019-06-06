@@ -6,13 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class PassarFase : MonoBehaviour
 {
-    float limite = 60;
-    // Update is called once per frame
-    void Update()
+    float limiteTempo = 100000;
+    int passar = 0;
+    
+
+    public void FixedUpdate()
     {
-        if (Time.time >= limite)
+        if (Time.time >= limiteTempo)
         {
-            SceneManager.LoadScene(2);
+            Passar();
         }
+    }
+
+    public void Passar()
+    {
+       
     }
 }
